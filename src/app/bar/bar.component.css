@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+a {
+    font-family: "Myriad Hebrew", "comic sans ms", serif;
+}
+
+img#logo {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    z-index: 1;
+}
+
+div#upper-bar {
+    padding-bottom: 20px;
+    background-color: #8e5a0c;
+    opacity: 0.75;
+}
+
+img#phone-icon {
+    display: inline;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+p#phone-number {
+    display: inline-block;
+    margin-left: 10px;
+    letter-spacing: 8px;
+    font-family: 'OpenSans', serif;
+    font-size: xx-large;
+}
+
+div#language-buttons {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    top: 6px;
+}
+
+img.lang-button-img {
+    margin-left: 10px;
+}
+
+p#quote {
+    position: absolute;
+    display: inline-block;
+    font-family: "Guttman Yad", "Myriad Hebrew", "comic sans ms", serif;
+    font-size: x-large;
+    color: #450043;
+    top: 18px;
+    right: 255px;
+}
+
+ul#lower-bar {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-right: 200px;
+    padding-left: 15px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: ghostwhite;
+}
+
+li.nav-button {
+    display: inline;
+    padding-left: 2em;
+}
+
+li.nav-button a {
+    transition: color 0.3s ease;
+    color: #1C1C1C;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+li.nav-button a:hover {
+    color: #94D0B1;
+}

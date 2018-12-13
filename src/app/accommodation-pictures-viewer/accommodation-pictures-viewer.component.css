@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#pictures-viewer {
+
+}
+
+img.preview-picture {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
