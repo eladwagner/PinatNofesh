@@ -1,14 +1,34 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
-div#pictures-viewer {
-
+div#pictures-viewer-container {
+	position: relative;
 }
 
-img.preview-picture {
-    position: absolute;
-    width: 100%;
-    height: 400px;
+div#preview-picture {
+	background-image: url("../../assets/previewPhotos/104033522.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	width: 100%;
+	min-height: 500px;
+	max-height: 700px;
+}
+
+p#right-arrow, p#left-arrow {
+	position: absolute;
+	top: 45%;
+	font-size: 4em;
+	cursor: default;
+}
+
+p#right-arrow {
+	right: 0;
+	margin-right: 20px;
+}
+
+p#left-arrow {
+	left: 0;
+	margin-left: 20px;
 }
